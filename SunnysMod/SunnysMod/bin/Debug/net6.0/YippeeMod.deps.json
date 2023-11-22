@@ -11,7 +11,6 @@
           "0Harmony": "2.9.0.0",
           "Assembly-CSharp": "0.0.0.0",
           "BepInEx": "5.4.21.0",
-          "LC_API": "1.0.0.0",
           "Unity.Netcode.Runtime": "0.0.0.0",
           "UnityEngine.AssetBundleModule": "0.0.0.0",
           "UnityEngine.AudioModule": "0.0.0.0",
@@ -43,14 +42,6 @@
           "BepInEx.dll": {
             "assemblyVersion": "5.4.21.0",
             "fileVersion": "5.4.21.0"
-          }
-        }
-      },
-      "LC_API/1.0.0.0": {
-        "runtime": {
-          "LC_API.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -857,11 +848,6 @@
       "sha512": ""
     },
     "BepInEx/5.4.21.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "LC_API/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
