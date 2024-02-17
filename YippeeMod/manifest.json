@@ -1,7 +1,7 @@
 {
     "name": "YippeeMod",
-    "version_number": "1.2.3",
-	"website_url": "",
+    "version_number": "1.2.4",
+	"website_url": "https://github.com/sunnobunno/SunnysMod",
     "description": "Changes the chitter SFX of the Hoarding Bug to the yippee-tbh sound",
     "dependencies": [
         "BepInEx-BepInExPack-5.4.2100"
