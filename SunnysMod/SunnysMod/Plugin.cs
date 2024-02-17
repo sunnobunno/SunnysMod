@@ -22,9 +22,9 @@ namespace YippeeMod
     [BepInPlugin(modGUID, modName, modVersion)]
     public class YippeeModBase : BaseUnityPlugin
     {
-        private const string modGUID = "YippeeMod";
+        private const string modGUID = "sunnobunno.YippeeMod";
         private const string modName = "Yippee tbh mod";
-        private const string modVersion = "1.2.0";
+        private const string modVersion = "1.2.4";
 
         private readonly Harmony harmony = new Harmony(modGUID);
 
@@ -42,31 +42,27 @@ namespace YippeeMod
             }
 
             mls = BepInEx.Logging.Logger.CreateLogSource(modGUID);
-            mls.LogInfo("Yippee Mod is loading.");
+            mls.LogInfo($"{modGUID} is loading.");
 
-            //videoPath = ((BaseUnityPlugin)Plugin.instance).Config.Bind<string>("CustomTelevisionVideo", "CustomVideoPath", "FlipMods-CustomTelevisionVideo/television_video.mp4", "Absolute or local video path. Use forward slashes in your path. Local paths are local to the BepInEx/plugins folder, and should not begin with a slash.");
+            string dllPath = Instance.Info.Location;
+            string dllName = "YippeeMod.dll";
+            string pluginPath = dllPath.TrimEnd(dllName.ToCharArray());
+            string assetPath = pluginPath + "yippeesound";
 
-            //string path = AppDomain.CurrentDomain.BaseDirectory;
-            //mls.LogInfo(path);
-            string path = Paths.BepInExRootPath + "\\Bundles\\yippeesound";
-            mls.LogInfo(path);
+            //mls.LogInfo(assetPath);
 
-            
-            AssetBundle val = AssetBundle.LoadFromFile(path);
+            AssetBundle val = AssetBundle.LoadFromFile(assetPath);
             if (val == null)
             {
                 mls.LogError("Failed to load audio assets!");
                 return;
             }
-            //mls.LogInfo("Bundle loaded");
-            //newSFX = val.LoadAllAssets<AudioClip>();
             newSFX = val.LoadAssetWithSubAssets<AudioClip>("assets/yippee-tbh.mp3");
-            //mls.LogInfo("Audio CLip loaded");
 
             //harmony.PatchAll();
             harmony.PatchAll(typeof(HoarderBugPatch));
 
-            mls.LogInfo("Yippee Mod is loaded. Yippee!!!");
+            mls.LogInfo($"{modGUID} is loaded. Yippee!!!");
         }
     }
 }

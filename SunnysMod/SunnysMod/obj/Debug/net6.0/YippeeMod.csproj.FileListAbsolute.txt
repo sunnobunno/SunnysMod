@@ -4,7 +4,6 @@ C:\Users\docin\Documents\Lethal Company Modding\SunnysMod\SunnysMod\SunnysMod\bi
 C:\Users\docin\Documents\Lethal Company Modding\SunnysMod\SunnysMod\SunnysMod\bin\Debug\net6.0\0Harmony.dll
 C:\Users\docin\Documents\Lethal Company Modding\SunnysMod\SunnysMod\SunnysMod\bin\Debug\net6.0\Assembly-CSharp.dll
 C:\Users\docin\Documents\Lethal Company Modding\SunnysMod\SunnysMod\SunnysMod\bin\Debug\net6.0\BepInEx.dll
-C:\Users\docin\Documents\Lethal Company Modding\SunnysMod\SunnysMod\SunnysMod\bin\Debug\net6.0\LC_API.dll
 C:\Users\docin\Documents\Lethal Company Modding\SunnysMod\SunnysMod\SunnysMod\bin\Debug\net6.0\Unity.Netcode.Runtime.dll
 C:\Users\docin\Documents\Lethal Company Modding\SunnysMod\SunnysMod\SunnysMod\bin\Debug\net6.0\UnityEngine.AssetBundleModule.dll
 C:\Users\docin\Documents\Lethal Company Modding\SunnysMod\SunnysMod\SunnysMod\bin\Debug\net6.0\UnityEngine.AudioModule.dll

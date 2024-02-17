@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YippeeMod")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60744df0e0d6ff117a7caee947e0b06a5eef3635")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("YippeeMod")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YippeeMod")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

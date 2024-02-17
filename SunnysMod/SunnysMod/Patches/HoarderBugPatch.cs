@@ -16,14 +16,8 @@ namespace YippeeMod.Patches
         [HarmonyPostfix]
         public static void hoarderBugAudioPatch(ref AudioClip[] ___chitterSFX)
         {
-
-            //AudioClip newChitterSFX = BundleLoader.GetLoadedAsset<AudioClip>("assets/yippee-tbh.mp3");
-
             AudioClip[] newChitterSFX = YippeeModBase.newSFX;
-            //AudioClip[] array = new AudioClip[1];
-            //array[0] = newChitterSFX;
             ___chitterSFX = newChitterSFX;
-            
         }
     }
 }

@@ -1,6 +1,6 @@
 {
     "name": "YippeeMod",
-    "version_number": "1.2.0",
+    "version_number": "1.2.3",
 	"website_url": "",
     "description": "Changes the chitter SFX of the Hoarding Bug to the yippee-tbh sound",
     "dependencies": [
